@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LoveCalculator1</string>
+    <string name="love_calculator">Love Calculator</string>
+    <string name="calculate">Calculate</string>
+    <string name="second_name">Second Name</string>
+    <string name="first_name">First Name</string>
+    <string name="_100">100%</string>
+    <string name="try_again">Try Again</string>
+    <string name="your_score">Your Score</string>
+    <string name="result">Result</string>
+</resources>

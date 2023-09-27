@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/result"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        android:layout_marginVertical="20dp" />
+
+    <TextView
+        android:id="@+id/firstEd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_margin="10dp"
+        android:text="@string/first_name"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/heart"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/secondEd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_margin="10dp"
+        android:text="@string/second_name"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@color/logo"
+        android:layout_margin="15dp"
+        android:text="@string/your_score"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/percentageTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="@string/_100"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/resultTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="@string/result"
+        android:gravity="center" />
+
+</LinearLayout>
