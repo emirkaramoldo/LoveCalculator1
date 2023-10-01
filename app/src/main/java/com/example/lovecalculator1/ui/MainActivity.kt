@@ -11,8 +11,8 @@ import com.example.lovecalculator1.MainView
 import com.example.lovecalculator1.model.LoveModel
 
 class MainActivity : AppCompatActivity(), MainView {
-    lateinit var binding: ActivityMainBinding
-    val presenter = MainPresenter()
+    private lateinit var binding: ActivityMainBinding
+    private val presenter = MainPresenter()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -35,6 +35,7 @@ class MainActivity : AppCompatActivity(), MainView {
         intent.putExtra("model", loveModel)
         startActivity(intent)
     }
+
 
     override fun showError(error: String) {
         Toast.makeText(this,error, Toast.LENGTH_SHORT).show()

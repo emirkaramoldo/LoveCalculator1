@@ -8,4 +8,6 @@
     <string name="try_again">Try Again</string>
     <string name="your_score">Your Score</string>
     <string name="result">Result</string>
+    <string name="history">History</string>
+    <string name="back">Back</string>
 </resources>

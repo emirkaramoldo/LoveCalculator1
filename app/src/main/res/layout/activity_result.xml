@@ -6,8 +6,8 @@
     android:orientation="vertical">
 
     <ImageView
-        android:layout_width="300dp"
-        android:layout_height="300dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
         android:src="@drawable/result"
         android:scaleType="centerCrop"
         android:layout_gravity="center"
@@ -62,5 +62,25 @@
         android:textSize="30sp"
         android:text="@string/result"
         android:gravity="center" />
+
+    <Button
+        android:id="@+id/tryAgainBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textSize="25sp"
+        android:text="@string/try_again"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/logo" />
+
+    <Button
+        android:id="@+id/historyBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textSize="25sp"
+        android:text="History"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/logo" />
 
 </LinearLayout>
